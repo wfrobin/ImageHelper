@@ -142,7 +142,7 @@ class ViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         let cellID = "Cell"
-        let cell:Cell! = collectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as! Cell
+        let cell:Cell! = collectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as? Cell
         
         let item: CellItem = items[(indexPath as NSIndexPath).section][(indexPath as NSIndexPath).item]
         cell.textLabel.text = item.text
