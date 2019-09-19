@@ -11,7 +11,6 @@
 		65EAC4A01D8C410D0001F670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EAC4991D8C410D0001F670 /* AppDelegate.swift */; };
 		65EAC4A11D8C410D0001F670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EAC49A1D8C410D0001F670 /* Main.storyboard */; };
 		65EAC4A21D8C410D0001F670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EAC49C1D8C410D0001F670 /* Images.xcassets */; };
-		65EAC4A31D8C410D0001F670 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65EAC49D1D8C410D0001F670 /* Info.plist */; };
 		65EAC4A41D8C410D0001F670 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EAC49E1D8C410D0001F670 /* Launch Screen.xib */; };
 		65EAC4A51D8C410D0001F670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EAC49F1D8C410D0001F670 /* ViewController.swift */; };
 		65EAC4B71D8C42170001F670 /* ImageHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EAC4B01D8C42170001F670 /* ImageHelper.framework */; };
@@ -33,7 +32,6 @@
 		65F5EC4C1D8C49ED004A35E8 /* ImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EAC4D91D8C42E40001F670 /* ImageVIewExtension.swift */; };
 		65F5EC4D1D8C49F0004A35E8 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EAC4D71D8C42E40001F670 /* ImageHelper.swift */; };
 		65F5EC4E1D8C4D28004A35E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EAC49F1D8C410D0001F670 /* ViewController.swift */; };
-		65F5EC4F1D8C52BA004A35E8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65F5EC481D8C493C004A35E8 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -328,7 +326,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "All Forces";
 				TargetAttributes = {
 					6581F3D51968328100C5CA28 = {
@@ -357,10 +355,9 @@
 			};
 			buildConfigurationList = 6561367A192E526900E30E76 /* Build configuration list for PBXProject "ImageHelper" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -387,7 +384,6 @@
 				65EAC4A11D8C410D0001F670 /* Main.storyboard in Resources */,
 				65EAC4A21D8C410D0001F670 /* Images.xcassets in Resources */,
 				65EAC4A41D8C410D0001F670 /* Launch Screen.xib in Resources */,
-				65EAC4A31D8C410D0001F670 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +414,6 @@
 			files = (
 				65F5EC471D8C493C004A35E8 /* Assets.xcassets in Resources */,
 				65F5EC451D8C493C004A35E8 /* Main.storyboard in Resources */,
-				65F5EC4F1D8C52BA004A35E8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,14 +507,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -557,14 +560,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
