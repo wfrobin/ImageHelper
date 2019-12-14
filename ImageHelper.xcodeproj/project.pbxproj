@@ -59,6 +59,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		325FC3F923A465F400359368 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		325FC3FA23A465F500359368 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		325FC40423A4668E00359368 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		325FC40523A4668E00359368 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		65613682192E526900E30E76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65613684192E526900E30E76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		65613686192E526900E30E76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -360,6 +364,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				"zh-Hans",
 			);
 			mainGroup = 65613676192E526900E30E76;
 			productRefGroup = 65613680192E526900E30E76 /* Products */;
@@ -484,6 +490,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				65EAC49B1D8C410D0001F670 /* Base */,
+				325FC3F923A465F400359368 /* ja */,
+				325FC40423A4668E00359368 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -492,6 +500,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				65F5EC441D8C493C004A35E8 /* Base */,
+				325FC3FA23A465F500359368 /* ja */,
+				325FC40523A4668E00359368 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
